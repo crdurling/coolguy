@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="https://web.csulb.edu/~mopsteeg/engl418/structuredAuthoring/structuredAuthoring.css" ?>
+<!DOCTYPE document [
+    <!ELEMENT document (title, introduction+, (section|topic)+)>
+<!ELEMENT section (sectionTitle, introduction+, topic+)>
+<!ELEMENT topic (topicTitle, introduction+, (steps|list)*)>
+<!ELEMENT steps (step+)>
+<!ELEMENT list (listItem+)>
+<!ELEMENT step (#PCDATA|action|note|warning|result)*>
+<!ELEMENT listItem (#PCDATA|action|note|warning|result)*>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT sectionTitle (#PCDATA)>
+<!ELEMENT topicTitle (#PCDATA)>
+<!ELEMENT introduction (#PCDATA|note|warning|list)*>
+<!ELEMENT result (#PCDATA|action)*>
+<!ELEMENT note (#PCDATA|action)*>
+<!ELEMENT warning (#PCDATA|action)*>
+<!ELEMENT action (#PCDATA)>
+]>
+
+<document>
+    <title>Feeding the Soul</title>
+    <introduction>intro</introduction>
+    <section>
+        <sectionTitle>Arizona Style Pozole Recipe</sectionTitle>
+        <introduction>intro</introduction>
+        <topic>
+            <topicTitle>Gathering the Ingredients</topicTitle>
+            <introduction>intro</introduction>
+            <list>
+                <listItem>2 pounds pinto beans</listItem>
+                <listItem>4 quarts water</listItem>
+                <listItem>2 pounds stew beef</listItem>
+                <listItem>1/4 cup vegetable oil</listItem>
+                <listItem>1 bunch green onions</listItem>
+                <listItem>3 medium tomatoes</listItem>
+                <listItem>1 bunch cilantro</listItem>
+                <listItem>1 tablespoon salt</listItem>
+                <listItem>2 cans golden hominy (15 ounces each)</listItem>
+                <listItem>2 cans white hominy (15 ounces each)</listItem>
+            </list>
+        </topic>
+        <topic>
+            <topicTitle>Prepping the Ingredients</topicTitle>
+            <introduction>intro</introduction>
+            <steps>
+                <step>Cut 2 pounds of stew beef to desired size (we like quarter-sized chunks).</step>
+                <step>Cut the white parts of the green onions in 1/4-inch slices.</step>
+                <step>Cut the green parts of the green onions in 1-inch slices.</step>
+                <step>Coarsely chop tomatoes into quarter-sized chunks.</step>
+                <step>Cut stems off cilantro. Discard the ends.</step>
+                <step>Drain all 4 cans of hominy.</step>
+            </steps>
+        </topic>
+        <topic>
+            <topicTitle>Cooking the Beans</topicTitle>
+            <introduction>Let’s start with the beans.</introduction>
+            <steps>
+                <step>Sort the beans, keeping only the good ones.</step>
+                <step>Rinse in cold water until water runs clear (about 3-4 times).</step>
+                <step>Place beans in a large pot.</step>
+                <step>Add 4 quarts of water to the pot</step>
+                <step>Bring to a boil over high heat uncovered.</step>
+            </steps>
+        </topic>
+        <topic>
+            <topicTitle>Browning the Beef</topicTitle>
+            <introduction>Meanwhile, it’s time to brown the beef.</introduction>
+            <steps>
+                <step>Heat 1/4 cup of vegetable oil on medium-high heat.</step>
+                <step>Brown the stew beef in heated oil.</step>
+                <step>When browned, add browned beef to the large pot of boiling beans.</step>
+                <step>Lower the heat.</step>
+                <step>Cover the large pot.</step>
+                <step>Cook for 1 hour.</step>
+            </steps>
+        </topic>
+        <topic>
+            <topicTitle>Combining the Ingredients</topicTitle>
+            <introduction>It’s all coming together!</introduction>
+            <steps>
+                <step>Add green onions, tomatoes, cilantro, and salt to the large pot.</step>
+                <step>Continue cooking for 45 minutes (or until beans are tender).</step>
+                <step>Add drained hominy</step>
+                <step>Cook on heat for 15 minutes more.</step>
+                <step>Serve and enjoy!</step>
+            </steps>
+        </topic>
+    </section>
+</document>
